@@ -55,19 +55,19 @@ O sistema é modelado com as seguintes entidades e relacionamentos:
 
 
 ## Comandos para BUILD
-1. Para a primeira build, instale todas as dependências NPM do projeto:
+1.  Para a primeira build, instale todas as dependências NPM do projeto:
 ```bash
 npm install typescript --save-dev
 ```
-2.Transpilação para JavaScript: Instale os tipos necessários para a transpilação do projeto:
+2.  Transpilação para JavaScript: Instale os tipos necessários para a transpilação do projeto:
 ```bash
 npm install @types/readline-sync --save-dev
 ```
-3. Instalação do readline-sync: Instale o pacote readline-sync, que é utilizado para interação com o usuário:
+3.  Instalação do readline-sync: Instale o pacote readline-sync, que é utilizado para interação com o usuário:
 ```bash
 npm install readline-sync
 ```
-4. Transpile o Código TypeScript para JavaScript: Se estiver usando TypeScript, compile o código para JavaScript com o comando:
+4.  Transpile o Código TypeScript para JavaScript: Se estiver usando TypeScript, compile o código para JavaScript com o comando:
 ```bash
 npx tsc
 ```
